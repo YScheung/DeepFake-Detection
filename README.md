@@ -5,3 +5,5 @@ I will first preprocess images then train and test it with different neural netw
 
 
 1) Mesonet
+
+UPDATE
