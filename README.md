@@ -11,7 +11,7 @@ Therefore, in this research project, I would like to examine whether different C
 2) Crop face photos from images obtained with the help of the [MTCNN module] (https://github.com/ipazc/mtcnn)
 3) Crop eyes and lower face of people in face photos 
 
-Dataset prepared:
+Dataset prepared:  <br />
 2000 real images  <br />
 2000 deepfake images  <br />
 80/20 train test split 
