@@ -29,6 +29,7 @@ Epochs = 50, Batch size = 16, Learning rate = 0.002, Loss function = Binary cros
 Unfortunately, CNN models performed worse when face images are cropped to only contain one’s eyes and lower face.
 
 
+Proposed Reasons: 
 1) Excessive focus on distinctive features <br />
 As face photos are cropped to only contain one’s eyes and lower face, parameters in determining whether a photo is deepfake or not are reduced. A lot more focus is placed on one’s eyes and lower face in deepfake detection which may lead to overfitting and harm the generalization of the model.   <br />
 For example the model may give a different prediction when one’s eyes and lower face orientations differ slightly from the learned structure 
