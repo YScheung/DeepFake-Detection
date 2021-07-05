@@ -18,5 +18,10 @@ Therefore, in this research project, I would like to examine whether different C
 
 
 ### Training process: 
-1) Mesonet:  <br />
+1. Mesonet:  <br />
 Epochs = 50, Batch size = 16, Learning rate = 0.002, Loss function = Binary crossentropy, Optimizer = Adam 
+
+
+
+
+### Results: 
