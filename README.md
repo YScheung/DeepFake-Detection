@@ -1,4 +1,4 @@
-# Deep Fake photos features research 
+# Research on DeepFake detection 
 
 ### Introduction:
 From other studies, it is found out that major distinctions between deep fake and real images are located at one’s eyes and lower face (mouth to chin). 
