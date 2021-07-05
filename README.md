@@ -30,7 +30,7 @@ Epochs = 50, Batch size = 16, Learning rate = 0.002, Loss function = Binary cros
 Unfortunately, CNN models performed worse when face images are cropped to only contain one’s eyes and lower face.
 
 |     Model     |   Accuracy (Normal image)   |   Accuracy (Cropped image)  |
-| ------------- | -------------               |                             |
+| ------------- | --------------------------- | --------------------------- |
 |    Mesonet    |    Content Cell             |                             |
 | Content Cell  |    Content Cell             |                             |
 
