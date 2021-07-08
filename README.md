@@ -4,7 +4,6 @@
 From other studies, it is found out that major distinctions between deepfake and real images are located at one’s eyes and lower face (mouth to chin). 
 Therefore, in this research project, I would like to examine whether different CNN models, namely mesonet, VGG19 and Resnet50 will perform better in deep fake detection when face photos are cropped to only contain identifying features compared to uncropped images. 
 
-VGG19 is later removed from the research project as it performed poorly in deepfake detection 
 
 ## Experimental Process:
 
@@ -31,8 +30,9 @@ Unfortunately, CNN models performed worse when face images are cropped to only c
 
 |     Model     |   Accuracy (Normal image)   |   Accuracy (Cropped image)  |
 | ------------- | --------------------------- | --------------------------- |
-|    Mesonet    |    Content Cell             |                             |
-| Content Cell  |    Content Cell             |                             |
+|    Mesonet    |                             |                             |
+|    VGG-19     |                             |                             |
+|   Resnet-50   |                             |                             |
 
 ### Conclusion:
 Below are the reasons that I believe led to the above expiremental results 
