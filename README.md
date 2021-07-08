@@ -13,7 +13,7 @@ Therefore, in this research project, I would like to examine whether different C
 3) Crop eyes and lower face of people in face photos 
 
 
-### Sample Images:
+### Sample Image:
 ![last](https://user-images.githubusercontent.com/72407100/124893698-870e7380-e00d-11eb-8550-7bab57de5b97.jpg)
 
 
