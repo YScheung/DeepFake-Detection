@@ -47,15 +47,15 @@ Unfortunately, CNN models performed worse when face images are cropped to only c
 ### Conclusion:
 Below are the reasons that I believe led to the above expiremental results 
 1) Excessive focus on distinctive features <br />
-As face photos are cropped to only contain one’s eyes and lower face, parameters in determining whether a photo is deepfake or not are reduced. A lot more focus is placed on one’s eyes and lower face in deepfake detection which may lead to overfitting and harm the generalization of the model.   <br />
+As face photos are cropped to only contain one’s eyes and lower face, parameters in determining whether a photo is deepfake or not are reduced. Too much focus may be placed on one’s eyes and lower face in deepfake detection which may lead to overfitting and harm the generalization of the model.   <br />
 For example the model may give a different prediction when one’s eyes and lower face orientations differ slightly from the learned structure 
 
 2) Ignored correlations between other facial features and eyes and lower face <br />
-Other facial features may still be needed in deepfake detection through one’s eyes and lower face <br />
+Other facial features may still be needed in deepfake detection  <br />
 There may be a possibility that one’s eye placement is related to his face size. Yet in the proposed method, we have only focused on characteristics of one’s eyes and ignored his face size. This shows that the proposed method has assumed that there are no correlations between eyes, lower face and other facial features which may be false. 
 
-3) Primary assumption is false <br />
-The eyes and lower face of people in face photos are not major distinctions between deepfake and real photos 
+3) Primary assumption is false  <br />
+The eyes and lower face of a person in face photo are not major distinctions between deepfake and real images
 
 
 ### References:
