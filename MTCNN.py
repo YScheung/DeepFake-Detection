@@ -1,12 +1,12 @@
+#Crop face photos from frame images with the MTCNN module 
+
 from mtcnn import MTCNN
 import cv2 
 from PIL import Image
 import matplotlib.pyplot as plt
 from os import listdir
 import os
-
 from pkg_resources import NullProvider
-
 
 
 
@@ -46,7 +46,7 @@ def crop_image(image_path):
 
 
 count = 0
-for i in listdir('/Users/yaushingjonathancheung/Desktop/realphotos'):
+for i in listdir('/Users/yaushingjonathancheung/Desktop/realphotos'): #Location of frame photos to be cropped 
       if (count >= 0):
           print(i)
           img_path = '/Users/yaushingjonathancheung/Desktop/realphotos/' + i
