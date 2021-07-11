@@ -5,6 +5,9 @@ From other studies, it is found out that major distinctions between deepfake and
 Therefore, in this research project, I would like to examine whether different CNN models, namely mesonet, VGG19 and Resnet50 will perform better in deep fake detection when face photos are cropped to only contain identifying features compared to uncropped images. 
 
 
+p.s Some .json and .h5 files of trained CNN models are not uploaded due to file size limit
+
+
 ## Experimental Process:
 
 ### Data collection and preprcoessing: 
