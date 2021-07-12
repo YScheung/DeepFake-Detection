@@ -11,7 +11,7 @@ p.s Some .json and .h5 files of trained CNN models are not uploaded due to file 
 ## Experimental Process:
 
 ### Data collection and preprcoessing: 
-1) Obtain frame images from youtube videos
+1) Extract frames from youtube videos 
 2) Crop face photos from images obtained with the help of the [MTCNN module] (https://github.com/ipazc/mtcnn)
 3) Crop eyes and lower face of people in face photos 
 
