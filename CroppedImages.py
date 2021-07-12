@@ -1,3 +1,5 @@
+# Create cropped images from face images 
+
 from PIL import Image
 from os import listdir
 
@@ -21,10 +23,10 @@ def crop_image(image_path):
 
 
 count = 0
-for i in listdir('./jo'):
+for i in listdir('./real'):  #Image path 
     if (count >= 0):
         print(i)
-        img_path = './jo/' + i
+        img_path = './real/' + i
         filename = str(count) + '.jpg'
         status,img=  crop_image(img_path)
         if status :
