@@ -1,8 +1,7 @@
 # Research on DeepFake detection 
 
 ## Introduction:
-From other studies, it is found out that major distinctions between deepfake and real images are located at one’s eyes and lower face (mouth to chin). 
-Therefore, in this research project, I would like to examine whether different CNN models, namely mesonet, VGG19 and Resnet50 will perform better in deep fake detection when face photos are cropped to only contain identifying features compared to uncropped images. 
+Multiple studies pointed out that the major distinctions between deepfake and real images are located at one’s eyes and lower face (mouth to chin). Therefore, in this project, I would like to examine whether deepfake classification could be done with only eyes and lower face of a person. I would like to evaluate if different CNN models, namely mesonet, VGG19 and Resnet50 can perform similarly or even better in deep fake detection when face photos are cropped to only contain identifying features compared to uncropped images.
 
 
 p.s Some .json and .h5 files of trained CNN models are not uploaded due to file size limit
