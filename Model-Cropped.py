@@ -1,3 +1,5 @@
+# To use CNN models for deepfake detection of cropped images
+
 from tensorflow.keras.models import model_from_json
 from PIL import Image
 import numpy as np
