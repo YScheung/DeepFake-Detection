@@ -39,7 +39,7 @@ Unfortunately, CNN models performed worse when face images are cropped to only c
 
 |     Model     |   Accuracy (Normal image)   |   Accuracy (Cropped image)  |
 | ------------- | --------------------------- | --------------------------- |
-|    Mesonet    |                             |                             |
+|    Mesonet    |            75%              |             35%             |
 |    VGG-19     |                             |                             |
 |   Resnet-50   |                             |                             |
 
