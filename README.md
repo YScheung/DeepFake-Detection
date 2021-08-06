@@ -1,7 +1,7 @@
 # Research on DeepFake detection 
 
 ## Introduction:
-Multiple studies pointed out that the major distinctions between deepfake and real images are located at one’s eyes and lower face (mouth to chin). Therefore, in this project, I would like to examine whether deepfake classification could be done with only eyes and lower face of a person. I would like to evaluate if different CNN models, namely mesonet, VGG19 and Resnet50 can perform similarly or even better in deep fake detection when face photos are cropped to only contain identifying features compared to uncropped images.
+Multiple studies pointed out that the major distinctions between deepfake and real images are located at one’s eyes and lower face (mouth to chin). In this project, I would like to examine whether CNN models, namely mesonet, VGG19 and Resnet50 can classify images that only contain distinctive features of the object or more specifically, if deepfake classification could be done with only eyes and lower face of a person. 
 
 
 ## Experimental Process:
@@ -27,13 +27,6 @@ Multiple studies pointed out that the major distinctions between deepfake and re
 80/20 train test split 
 
 
-### Training process: 
-Mesonet:  <br />
-Epochs = 50, Batch size = 16, Learning rate = 0.002, Loss function = Binary crossentropy, Optimizer = Adam 
-
-
-
-
 ### Results: 
 Unfortunately, CNN models performed worse when face images are cropped to only contain one’s eyes and lower face.
 
@@ -46,16 +39,11 @@ Unfortunately, CNN models performed worse when face images are cropped to only c
 ### Conclusion:
 Below are the reasons that I believe led to the above expiremental results 
 1) Excessive focus on distinctive features <br />
-As face photos are cropped to only contain one’s eyes and lower face, parameters in determining whether a photo is deepfake or not are reduced. Too much focus may be placed on one’s eyes and lower face in deepfake detection which may lead to overfitting and harm the generalization of the model.   <br />
-For example the model may give a different prediction when one’s eyes and lower face orientations differ slightly from the learned structure 
+When applying CNN models to face photos that are cropped to only contain one’s eyes and lower face, filters may be trained to identify over detailed structures which is meaningless and non-differentiating
 
-2) Ignored correlations between other facial features and eyes and lower face <br />
-Other facial features may still be needed in deepfake detection  <br />
-There may be a possibility that one’s eye placement is related to his face size. Yet in the proposed method, we have only focused on characteristics of one’s eyes and ignored his face size. This shows that the proposed method has assumed that there are no correlations between eyes, lower face and other facial features which may be false. 
+
+2) Ignored other facial features of a person <br />
+Other facial features may still be needed in deepfake detection /  
 
 3) Primary assumption is false  <br />
 The eyes and lower face of a person in face photo are not major distinctions between deepfake and real images
-
-
-### References:
-https://arxiv.org/pdf/1809.00888.pdf
