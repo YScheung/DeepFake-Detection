@@ -43,7 +43,7 @@ When applying CNN models to face photos that are cropped to only contain one’s
 
 
 2) Ignored other facial features of a person <br />
-Other facial features may still be needed in deepfake detection /  
+Other facial features may still be needed in deepfake detection   
 
 3) Primary assumption is false  <br />
 The eyes and lower face of a person in face photo are not major distinctions between deepfake and real images
