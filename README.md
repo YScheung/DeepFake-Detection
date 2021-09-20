@@ -3,6 +3,8 @@
 ## Introduction:
 Multiple studies pointed out that the major distinctions between deepfake and real images are located at one’s eyes and lower face (mouth to chin). In this project, I would like to examine whether CNN models, namely mesonet, VGG19 and Resnet50 can classify images that only contain distinctive features of the object or more specifically, if deepfake classification could be done with only eyes and lower face of a person. 
 
+In addition, I would like to test if models with less filters could perform deepfake detection on cropped images at a high accuracy. 
+
 
 ## Experimental Process:
 
