@@ -35,14 +35,13 @@ Unfortunately, CNN models performed worse when face images are cropped to only c
 |     Model     |   Accuracy (Normal image)   |   Accuracy (Cropped image)  |
 | ------------- | --------------------------- | --------------------------- |
 |    Mesonet    |            75%              |             35%             |
-|    VGG-19     |                             |                             |
-|   Resnet-50   |                             |                             |
+|    VGG-19     |            70%              |             25%             |
+|   Resnet-50   |            60%              |             30%             |
 
 ### Conclusion:
 Below are the reasons that I believe led to the above expiremental results 
 1) Excessive focus on distinctive features <br />
 When applying CNN models to face photos that are cropped to only contain one’s eyes and lower face, filters may be trained to identify over detailed structures which is meaningless and non-differentiating
-
 
 2) Ignored other facial features of a person <br />
 Other facial features may still be needed in deepfake detection   
